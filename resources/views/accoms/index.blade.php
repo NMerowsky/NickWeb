@@ -1,9 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Accomplishments</title>
-</head>
-<body>
-	<h1>Accomplishments</h1>
-</body>
-</html>
+@extends('layout')
+
+{{-- Title --}}
+@section('title')
+	Accomplishments
+@endsection
+
+{{-- Navbar --}}
+@section('currentNavAccomplishments')
+	active
+@endsection
+
+{{-- Header --}}
+
+{{-- Content --}}
+@section('content')
+	<h1>Accomplishments Test</h1>
+@endsection
+
+{{-- Footer --}}
+@section('footer')
+
+@endsection

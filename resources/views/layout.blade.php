@@ -22,6 +22,6 @@
 	</div>
 
 	{{-- Footer --}}
-	@yield('footer')
+	@yield('navigation.footer')
 </body>
 </html>

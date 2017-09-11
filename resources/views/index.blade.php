@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Index</title>
+	<title>
+		{{-- Tab Title --}}
+		@yield('title')
+	</title>
+
+	{{-- Bootstrap core CSS --}}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	{{-- Independent Header --}}
+	@yield('header')
 </head>
 <body>
+	{{-- Nav Bar --}}
 
+	{{-- Content --}}
+	<div class="container">
+		@yield('content')
+	</div>
+
+	{{-- Footer --}}
+	@yield('navigation.footer')
 </body>
 </html>
