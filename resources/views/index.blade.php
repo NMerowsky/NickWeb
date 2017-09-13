@@ -17,9 +17,19 @@
 	{{-- Nav Bar --}}
 
 	{{-- Content --}}
-	<div class="container">
-		@yield('content')
-	</div>
+	<section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Nick Merowsky</h1>
+        <h3 class="jumbotron-heading">Web Designer/Software Developer/Bioinformatician</h3>
+
+        <p class="lead text-muted">Welcome to Nick Merowsky's personal webpage!  Here you're going to learn a lot about my interests, both professional and extracirricular.  I hope you enjoy your visit to my personal portfolio.</p>
+        <p>
+          <a href="/about" class="btn btn-secondary">About</a>
+          <a href="/examples" class="btn btn-secondary">Examples</a>
+          <a href="/accoms" class="btn btn-secondary">Accomplishments</a>
+        </p>
+      </div>
+    </section>
 
 	{{-- Footer --}}
 	@include('navigation.footer')
