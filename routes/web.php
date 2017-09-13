@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	return view('index');
 });
+
+// About
+Route::get('/about', 'AboutController@index');
+
+// Examples
+Route::get('/examples', 'ExamplesController@index');
+
+// Accoms
+Route::get('/accoms', 'AccomsController@index');
